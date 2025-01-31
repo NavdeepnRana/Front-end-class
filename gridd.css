@@ -1,0 +1,46 @@
+.container{
+    background-color: #ffffff;
+    border: solid;
+    margin: auto;
+    padding: 10px;
+
+
+    column-gap: 10px;
+    row-gap: 10px;
+
+
+    /*grid*/
+    display: grid;  /*Imp. for other property*/
+    grid-template-columns: 25% auto 50%;
+    /* grid-template-rows: 80% 60%; */
+
+    /* grid-row-start: 2; */
+}
+
+#i3{
+    grid-row-start: 2;       /*grid effect on only i3 */
+    grid-row-end: span 3;
+
+    /* grid-row: 2/span 2; */
+
+    /* grid-gap: 30% 30%; */
+
+}
+
+#i7{
+    grid-row-start: 2;       /*grid effect on only i3 */
+    grid-row-end: span 3;
+
+    /* grid-row: 2/span 2; */
+
+}
+
+#i9{
+    grid-area: 3/5/span 1/span 2;
+}
+
+.item{
+    border: 2px solid lightcoral;
+    padding: 10px;
+
+}

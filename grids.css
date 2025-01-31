@@ -1,0 +1,49 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    border: solid;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+    /* Grid */
+    display: grid;
+    grid-row: inherit;
+    grid-template-rows: auto auto auto; /* Define rows */
+    grid-gap: 10px;
+}
+
+#i1 {
+    grid-row: 1;  /* First row */
+    grid-column: 1;
+}
+
+#i2 {
+    grid-row: 1;  /* First row */
+    grid-column: 2;
+}
+
+#i3, #i4, #i5 {
+    grid-row: 1;  /* First row */
+    grid-column: 3;
+}
+
+#i6 {
+    grid-row: 2;  /* Second row */
+    grid-column: 3;
+}
+
+#i7 {
+    grid-row: 3;  /* Third row */
+    grid-column: 3;
+}
+
+#i8 {
+    grid-row: 4;  /* Fourth row */
+    grid-column: 1 / span 3; /* Spanning all columns */
+}
+
+.item {
+    border: 2px solid;
+    padding: 10px;
+}
