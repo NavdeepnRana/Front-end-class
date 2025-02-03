@@ -14,8 +14,8 @@
 
 
 
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between;     /*For horizantal*/
+    align-items: center;        /*For vertical*/
 
     
     flex-wrap: wrap;
